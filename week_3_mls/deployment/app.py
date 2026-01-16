@@ -12,7 +12,7 @@ model = joblib.load(model_path)
 st.title("Machine Failure Prediction App")
 st.write("""
 This application predicts the likelihood of a machine failing based on its operational parameters.
-Please enter the sensor and configuration data below to get a prediction.
+Please enter the sensor and configuration data below to get a prediction
 """)
 
 # User input
