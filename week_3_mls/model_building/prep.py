@@ -15,7 +15,7 @@ api = HfApi(token=os.getenv("HF_TOKEN"))
 #DATASET_PATH = "hf://datasets/praneeth232/machine-failure-prediction/machine-failure-prediction.csv"
 DATASET_PATH = "hf://datasets/rajaramsblr/machine-failure-prediction-CICD/machine-failure-prediction.csv"
 df = pd.read_csv(DATASET_PATH)
-print("Dataset loaded successfully.")
+print("Dataset loaded successfully..")
 
 # Drop the unique identifier
 df.drop(columns=['UDI'], inplace=True)
