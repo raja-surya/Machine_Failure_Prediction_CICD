@@ -3,7 +3,6 @@ from huggingface_hub import HfApi
 import os
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
-
 print("Pushing to HF")
 
 api.upload_folder(
